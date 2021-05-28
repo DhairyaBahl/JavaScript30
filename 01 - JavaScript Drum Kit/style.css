@@ -1,0 +1,38 @@
+body{
+    background-image: url("./background.jpg");
+    background-size: cover;
+    font-size: 30px;
+}
+
+.keys{
+    height: 90vh;
+    display : flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.key{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:0.5rem;
+    background-color:black;
+    color:white;
+    transition: all .07s ease;
+    text-align: center;
+    border : 2px solid white;
+    width: 10vw ;
+    text-shadow: 0 0 .5rem black;
+}
+
+kbd{
+    display: block;
+}
+
+.sound{
+    font-size:20px;
+}
+
+.playing{
+    border-color: yellow;
+    transform: scale(1.1);
+}
